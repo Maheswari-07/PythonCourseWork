@@ -38,8 +38,8 @@ print(tuple(set_a))#Output: (1, 2, 3, 4)
 print(str(set_a))#Output: {1, 2, 3, 4}
 
 #7. Converting to dictionary
-dict_a={"name":"Nihitha","age":20}
-print(str(dict_a))#Output: {'name': 'Nihitha', 'age': 20}
+dict_a={"name":"mahi","age":21}
+print(str(dict_a))#Output: {'name': 'mahi', 'age': 21}
 print(bool(dict_a))#Output: True
 print(list(dict_a))#Output: ['name', 'age']
 print(tuple(dict_a))#Output: ('name', 'age')
@@ -52,5 +52,5 @@ print(int(bool_a))#Output: 0
 print(float(bool_a))#Output: 0.0
 
 #9.Dictionary Conversion
-d=[('name','Nihitha'),('course','Python')]
-print(dict(d))#Output: {'name': 'Nihitha', 'course': 'Python'}
+d=[('name','mahi'),('course','Python')]
+print(dict(d))#Output: {'name': 'mahi', 'course': 'Python'}

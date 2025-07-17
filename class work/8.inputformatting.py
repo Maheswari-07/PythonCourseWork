@@ -12,11 +12,11 @@ print(c)#Output: 3.14
 
 #4.1. Input as List (Space-separated)
 names=input("Enter names(space seperated)").split()
-print(names)#Output: ['Nihitha', 'Pavan', 'Nihan']
+print(names)#Output: ['mahi', 'kiran', 'vihan']
 
 #5. Input as List (Comma-separated)
 names=input("Enter names(comma seperated)").split(",")
-print(names)#Ouput: ['  Nihitha', ' Pavan', ' Nihan']
+print(names)#Ouput: ['  mahi', ' kiran', ' vihan']
 
 #6. List of Integers
 marks = list(map(int, input("Enter marks: ").split()))
@@ -36,7 +36,7 @@ print(selected_ids)#Output: {101, 102, 103, 104}
 
 #10. Dictionary Input using eval()
 profile=eval("Enter dict values:")
-print(profile)#Output: {'name': 'Ravi', 'age': 30, 'role': 'admin'}
+print(profile)#Output: {'name': 'sreya', 'age': 30, 'role': 'admin'}
 
 #11. Multiple Inputs with Unpacking
 username,password=input("Enter username and password:")
