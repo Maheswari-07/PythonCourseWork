@@ -38,32 +38,3 @@ print(f"Supported Currencies: {', '.join([cur.strip() for cur in supported_curre
 print("\nAgent Details: Name - {}, Contact - {}, Location - {}".format(
     agent_details["agent_name"], agent_details["agent_contact"], agent_details["agent_location"]
 ))
-#INPUT DETAILS:
-
-# Enter Conversion ID: 123
-# Enter Your Name: Maheswari
-# Enter From Currency (e.g., USD): USD
-# Enter To Currency (e.g., INR): INR
-# Enter Amount to Convert: 200
-# Enter Conversion Rate: 50.8
-# Enter Fee Percentage: 1.5
-# Enter Supported Currencies (comma-separated): USD,INR,EUR,GBP
-# Enter Agent Name: Codegnan
-# Enter Agent Contact Number: 12434567890
-# Enter Agent Location: Ap
-
-# #OUTPUT:
-
-# --- Conversion Summary ---
-# Conversion ID, User, Amount:,123,Maheswari,200.0
-# Fee Applied: 1.50%
-
-# From: USD
-# To: INR
-# Amount: 200.0
-# Conversion Rate: 50.8
-# Converted Amount (Before Fee): 10160.0
-# Fee Amount: ₹3.0
-# Supported Currencies: INR, EUR, USD,    GBP        
-
-# Agent Details: Name - Codegnan, Contact - 12434567890, Location - Ap
