@@ -26,7 +26,7 @@ print("Fee Applied: %.2f%%" % fee_percent)
 converted_amount = amount * conversion_rate
 fee_amount = (fee_percent / 100) * amount
 print(f"\nFrom: {from_currency}")
-print(f"To: {to_currency}")
+print(f"To: {to_currency}")                                      
 print(f"Amount: {amount}")
 print(f"Conversion Rate: {conversion_rate}")
 print(f"Converted Amount (Before Fee): {converted_amount}")
@@ -52,7 +52,7 @@ print("\nAgent Details: Name - {}, Contact - {}, Location - {}".format(
 #Enter Supported Currencies (comma-separated): USD,INR,EUR,GBP
 #Enter Agent Name: forxKing
 #Enter Agent Contact Number: 9014462548
-#Enter Agent Location: Ap
+#Enter Agent Location: Ap 
 
 #OUTPUT:
 
